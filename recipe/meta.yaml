@@ -30,7 +30,6 @@ requirements:
   host:
     - gstreamer {{ version }}
     - gst-plugins-base {{ version }}
-    - gobject-introspection
     - glib
     - libintl-devel  # [not linux]
     - libiconv
